@@ -2,7 +2,7 @@
 
 This test automation project is created with Node.js, Selenium-webdriver, Cucumber, chai and chai-as-promised.
 
-<img src="Clark_.ßgif">
+<img src="Clark_.gif">
 
 ## Setting up the local test environment
 
