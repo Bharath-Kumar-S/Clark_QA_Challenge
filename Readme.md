@@ -6,6 +6,8 @@ This test automation project is created with Node.js, Selenium-webdriver, Cucumb
 
 ## Setting up the local test environment
 
+<u>Note : Node.js and npm needs to installed in the PC.</u> 
+
 1. Clone the project from git https://github.com/Bharath-Kumar-S/Clark_QA_Challenge.git
 2. cd to the cloned folder and run `npm install` from the command prompt. This downloads all required library from npmjs.org 
 3. Execute the tests by running `npm run test` in the command prompt
