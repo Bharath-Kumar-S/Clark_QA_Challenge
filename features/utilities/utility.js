@@ -11,9 +11,6 @@ const webelement_actions = {
     },
     sendKeys: async (driver,locator,text,enter) =>{
         let element = await construct_locator(driver, locator);
-        await driver.wait(function() {
-            return element.isEnabled();
-        }, 60000);
         enter === true ? await element.sendKeys(text, Key.RETURN): await element.sendKeys(text);
     },
     getText: async(driver,locator) =>{

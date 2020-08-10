@@ -53,8 +53,12 @@ class infopage {
     }
 
     async selectFurther(driver) {
-        await driver.sleep(1000);
-        await click(driver, this.further);
+        return new Promise(async(resolve)=>{
+            setTimeout(async() => {
+                await click(driver, this.further);
+                resolve();
+            }, 500);    
+        })
     }
 
     async provideAdditionalInfo(driver,additionalInfo){

@@ -19,17 +19,21 @@ class personalinformation {
     }
 
     async providePersonalInfo(driver,gender,fname,sname,dob,street,houseNo,place,postCode,phoneNumber){
-      await driver.sleep(3000)
       await sendKeys(driver,this.fname,fname);
       await sendKeys(driver,this.sname,sname);
-      gender === `Male` ? await driver.executeScript(`document.querySelector('[value="male"]').click()`) : await click(driver,this.female);
       await sendKeys(driver,this.dob,dob);
       await sendKeys(driver,this.street, street);
       await sendKeys(driver,this.houseNo, houseNo);
       await sendKeys(driver,this.place,place);
       await sendKeys(driver,this.postCode,postCode);
       await sendKeys(driver,this.phoneNumber,phoneNumber);
+      await sendKeys(driver,this.fname,fname);
+      await sendKeys(driver,this.sname,sname);
+      await sendKeys(driver,this.dob,dob);
+      gender === `Male` ? await driver.executeScript(`document.querySelector('[value="male"]').click()`) : await click(driver,this.female);
+      
       await click(driver,this.further);
+
     }
 
 }
