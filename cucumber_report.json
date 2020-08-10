@@ -1,0 +1,253 @@
+[
+  {
+    "description": "    As a user of clark application\n    I want to be able to buy a offer from the deals page\n    So later that an be verified in the overview page.",
+    "keyword": "Feature",
+    "name": "Clark Sanity Flow",
+    "line": 1,
+    "id": "clark-sanity-flow",
+    "tags": [],
+    "uri": "features/feature files/main.feature",
+    "elements": [
+      {
+        "id": "clark-sanity-flow;clark-sanity",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Clark Sanity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/world.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit the clark landing page \"https://staging.clark.de/de/app/contracts?cv=2\"",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on \"Angebote\" tab from the navigation bar",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "select \"Pri­vat­haft­pflicht\" in the deals",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "confirm the deal to proceed further",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "select insure for \"Me alone\" and click on further",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "select \"None of the cases apply to me either\" and click on further",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "select \"Im Falle eines Schadens soll meine Geldbörse nicht belastet werden\" for event of damage",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "provide additonal information for - Do you have any further information or comments for us? - as \"I love insurance with CLARK\"",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "click on Angebot anfordern",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "click on Zum Angebot to view the offers",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2915000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "click on recommended offer",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "register with email \"bharath@gmail.com\" and password \"Test@1234\"",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "provide personal information for whom the insurance belongs \"Male\", \"bharath\", \"sadanandam\", \"28.11.1994\", \"nord street\", \"5\", \"brussels\", \"60306\", \"015229320777\"",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "provide bank account \"DE55500105174529223988\" for purchasing offer",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "order tariff and open the over view page",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Check if \"Privathaftpflicht\" is purchased",
+            "match": {
+              "location": "features/step-definitions/main-steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/world.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
