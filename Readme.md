@@ -13,19 +13,6 @@ This test automation project is created with Node.js, Selenium-webdriver, Cucumb
 3. Execute the tests by running `npm run test` in the command prompt
 4. HTML report is generated after the test execution with the timestamp in the file name.
 
-### Folder structure
-    
-   |
-   features  _____feature files
-             |
-             |__pages
-             |
-             |__step_definitions
-             |
-             |__support___world.js
-             |
-             |__Utilities
-
 ### Utilities 
 
 `const { click, sendKeys, getText } = require('../utilities/utility').webelement_actions;`
